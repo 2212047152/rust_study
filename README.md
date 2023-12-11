@@ -1,5 +1,5 @@
-# rust study
+# Rust study
 
 > study program for rust language
 
-### *current branch : main*
+### *current branch : greeting project*
