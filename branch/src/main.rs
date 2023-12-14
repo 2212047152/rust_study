@@ -27,5 +27,33 @@ fn main() {
 	}
 
 	// for condition
-	
+	let a: [i32; 5] = [10,20,30,40,50];
+	for i in a.iter() {
+		println!("a => {i}")
+	}
+
+	for i in 0..5 {
+		println!("a[{i}] = {}",a[i]);
+	}	
+
+	// infinate loop
+    let s: [char; 6] = ['R', 'U', 'N', 'O', 'O', 'B'];
+    let mut i: usize = 0;
+    loop {
+        let ch = s[i];
+        if ch == 'O' {
+            break;
+        }
+        println!("\'{}\'", ch);
+        i += 1;
+    }
+
+	let location = loop {
+        let ch = s[i];
+        if ch == 'O' {
+            break i;
+        }
+        i += 1;
+    };
+    println!(" The index of \'O\' is {}", location);
 }
