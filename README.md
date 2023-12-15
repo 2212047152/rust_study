@@ -2,4 +2,4 @@
 
 > study program for rust language
 
-### *current branch : ownership*
+### *current branch : master*
